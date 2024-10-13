@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="330dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:background= "@drawable/upload" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/button_predict"
+            android:layout_width="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primaryColor"
+            android:layout_gravity="center"
+            android:text="Predict"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/image_crop"
+            android:layout_width="100dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:background= "@drawable/perdict" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            android:layout_marginTop="16dp">
+
+
+            <Button
+                android:id="@+id/button_choose_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="Select"
+                android:layout_gravity="center"
+                android:background="@drawable/round_button_background"
+                android:backgroundTint="@color/purple_200"
+                android:textColor="@android:color/white"
+                android:elevation="4dp" />
+
+
+            <ImageButton
+                android:id="@+id/button_take_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button_background"
+                android:contentDescription="Take Photo"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediction will be shown here"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/purple_200"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:elevation="4dp"
+        android:letterSpacing="0.02" />
+</LinearLayout>

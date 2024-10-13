@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">opnecvproject</string>
+    <string name="prediction_results">Predicted Age: %1$d\nPredicted Gender: %2$s\nPredicted Emotion: %3$s (Probability: %.2f)</string>
+</resources>

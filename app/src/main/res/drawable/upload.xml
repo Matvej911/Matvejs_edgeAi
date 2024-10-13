@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#BDBDBD" />
+            <corners android:radius="20dp" /> <!-- Corner radius for rounded corners -->
+     Optional: border with color and width --><!-- Default color -->
+        </shape>
+    </item>
+    <item android:drawable="@drawable/arrow" android:gravity="center" />
+</layer-list>
