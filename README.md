@@ -48,12 +48,12 @@ The images_testing.zip file includes 20 images (50% adults and 50% elderly, with
 
 ## How to Use the App
 
-### 1. Select an Image 
+### 1. Select an Image **(Wait 20 seconds and you will see gif)**
 - You can easily select an image from your gallery to get predictions for age, gender, and emotion. Click the "Select Image" button, browse your gallery, and choose an image. After selecting, hit "Predict" to see the results.
 
 ![selectgif1](https://github.com/user-attachments/assets/fd410f1a-8ec2-4162-8bdd-32b6ec78da77)
 
-### 2. Take a Photo
+### 2. Take a Photo **(Wait 20 seconds and you will see gif)**
 - Alternatively, you can use the app’s camera functionality to take a live photo. Tap the "Take Photo" button to open the camera, capture an image, and get instant predictions for age, gender, and emotion.
   
 ![fotogif](https://github.com/user-attachments/assets/c35688d2-ab8f-4a9e-a6b8-ab4d4f07f148)
